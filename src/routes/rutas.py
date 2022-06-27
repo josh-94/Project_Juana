@@ -112,16 +112,3 @@ def eliminar_estado(n_pedido):
     except Exception as ex:
         return jsonify({'mensaje': "Error"})
 
-
-    from app import conexion
-    try:
-        cursor = conexion.connection.cursor()
-        # Obtengo los datos del json que se le pasa por parametro y los guardo en una variable
-        sql = "DELETE FROM products WHERE numeroPedido = '{0}'".format(
-            n_pedido)
-        cursor.execute(sql)
-        conexion.connection.commit()  # Confirma la accion de insercion
-        return jsonify({'mensaje': "Estado del Pedido eliminado..."})
-
-    except Exception as ex:
-        return jsonify({'mensaje': "Error"})
