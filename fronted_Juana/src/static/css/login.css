@@ -1,0 +1,51 @@
+body{
+    background-color: #A0D5AD;
+
+    background-attachment: fixed;
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.logo{
+    width: 100px;
+    border-radius: 20%;    
+}
+
+.login{
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.568);
+}
+.caja-texto{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    border-radius: 100px;
+}
+input.caja-texto{
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+input.caja-texto:hover{
+   
+    box-shadow: 0 0 5px #00807C;
+
+}
+.btn{
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 100px;
+}
+input.btn{
+    background-color: #00807C;
+    color: white;
+    font-weight: 700!important;
+    
+}
+
+input.btn:hover{
+    background-color: #049c97;
+    transition:  0.5s;
+    font-weight: 700!important;
+    color: white;
+}

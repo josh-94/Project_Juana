@@ -1,0 +1,15 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.barra{
+    background: #A0D5AD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.dropdown-menu{
+    margin: 17px;
+    background: #00807C;
+}

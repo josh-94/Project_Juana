@@ -1,0 +1,45 @@
+{% extends './base.html' %}
+
+{% block title %}Login Juana By Teoma{% endblock %}
+
+{% block customCSS %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+{% endblock %}
+
+{% block body %}
+<form class="form-signin" action="/login" method="POST">
+            <div class="row justify-content-center mt-5 pt-5 m-1">
+            <div class="col-sm-8 col-xl-4 col-lg-5 login text-center">
+                <div class="form-group">
+                    <img src="{{ url_for('static', filename='img/logoJuana.png')}}" alt="Logo" class="logo">
+                </div>
+                {% with messages = get_flashed_messages() %}
+
+                {% if messages %}
+                <br />
+                {% for message in messages %}
+                <div class="alert alert-primary alert-dismissible" role="alert">
+                    <strong>{{ message }}</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                {% endfor %}
+                {% endif %}
+
+                {% endwith %}
+                <div class="form-group">
+                    <h3>Iniciar sesión</h3>
+                </div>
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <div class="form-group mx-sm-5 pt-2">
+                    <input type="text" class="form-control caja-texto" name="username" placeholder="Usuario">    
+                </div>
+                <div class="form-group mx-sm-5 pt-2">
+                    <input type="password" class="form-control caja-texto" name="password" placeholder="Contraseña">
+                </div>
+                <div class="form-group mx-sm-5">
+                    <input type="submit" class="btn btn-block" value="Ingresar">  
+                </div>
+            </div>
+        </div>
+</form>
+    {% endblock %}
