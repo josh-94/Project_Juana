@@ -1,8 +1,10 @@
 from flask import Blueprint, jsonify, request
+from flask_cors import CORS
 from function_jwt import validate_token
 from function_validation import validar_nPedido
 
 rutas = Blueprint("rutas", __name__)
+CORS(rutas)
 
 @rutas.route("/mostrarEstado", methods=["GET"])                         # listo
 def mostrarEstado():
@@ -14,7 +16,7 @@ def mostrarEstado():
         # Crea una conexion con la base de datos
         cursor = conexion.connection.cursor()
         # Consulta sql
-        sql = "SELECT * FROM productos"
+        sql = "SELECT * FROM productos WHERE eliminado = 0;"
         # Ejecuto la consulta
         cursor.execute(sql)
         # Obtengo los datos
@@ -44,7 +46,7 @@ def mostra_pedido(n_pedido):
     try:
         cursor = conexion.connection.cursor()
         # Consulta sql, el numero de pedido que se le pasa por parametro y se usa el format para que se pueda usar el parametro
-        sql = "SELECT * FROM productos WHERE numeroPedido = '{0}' ORDER BY tiempo DESC".format(
+        sql = "SELECT * FROM productos WHERE eliminado = 0 AND numeroPedido = '{0}' ORDER BY tiempo DESC".format(
             n_pedido)
         cursor.execute(sql)
         # el fetchone es para que solo me devuelva una fila(la que necesito segun el numero de pedido)
@@ -66,9 +68,9 @@ def historial_pedido(n_pedido):
     Me muestra un historial segun el numero de Pedido que se le pasa por parametro
     :parametro n_pedido: El numero de pedido que es unico
     """
-    from app import conexion
+    #from app import conexion
    
-    cursor = conexion.connection.cursor()
+    cursor = app.conexion.connection.cursor()
     # Consulta sql, el numero de pedido que se le pasa por parametro y se usa el format para que se pueda usar el parametro
     sql = "SELECT * FROM productos WHERE numeroPedido = '{0}'".format(n_pedido)
     cursor.execute(sql)
@@ -99,12 +101,13 @@ def eliminar_estado(n_pedido):
     
     :parametro n_guia: El numero de pedido que es unico
     """
-    from app import conexion
+    #from app import conexion
     try:
-        cursor = conexion.connection.cursor()
+        cursor = app.conexion.connection.cursor()
         # Obtengo los datos del json que se le pasa por parametro y los guardo en una variable
-        sql = "DELETE FROM productos WHERE numeroPedido = '{0}'".format(
-            n_pedido)
+        sql = "UPDATE FROM productos SET eliminado = 1 WHERE numeroPedido = '{0}'".format(n_pedido)
+        #sql = "DELETE FROM productos WHERE numeroPedido = '{0}'".format(
+        #    n_pedido)
         cursor.execute(sql)
         conexion.connection.commit()  # Confirma la accion de insercion
         return jsonify({'mensaje': "Estado del Pedido eliminado..."})

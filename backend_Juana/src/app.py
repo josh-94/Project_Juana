@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from flask_cors import CORS
 from flask_mysqldb import MySQL
 from config import config
 
@@ -8,6 +9,7 @@ from routes.ruta_auth import route_sharff
 from dotenv import load_dotenv
 
 app = Flask(__name__)
+cors = CORS(app, resources={r"/*": {"origins": "*"}})
 app.register_blueprint(routes_auth, url_prefix="/")
 app.register_blueprint(rutas, url_prefix="/")
 app.register_blueprint(route_sharff, url_prefix="/")
@@ -44,4 +46,10 @@ if __name__ == '__main__':
     app.register_error_handler(404, pagina_no_encontrada)
     app.register_error_handler(405, error_autorizacion)
     # Inicia el servidor en el puerto 5000
-    app.run(port=5000)
+    isDev = getenv("ISDEV")
+    if (isDev == "TRUE"):
+        host = getenv("HOST", default="0.0.0.0")
+        port = getenv("PORT", default=5000)
+        app.run(debug=True, host=host, port=int(port))
+    else:
+        app.run(debug=False)

@@ -1,7 +1,9 @@
 from flask import Blueprint, jsonify, request
+from flask_cors import CORS
 from function_jwt import write_token, validate_token
 
 routes_auth = Blueprint("routes_auth", __name__)
+CORS(routes_auth)
 
 @routes_auth.route("/login", methods=["POST"])
 def login():
