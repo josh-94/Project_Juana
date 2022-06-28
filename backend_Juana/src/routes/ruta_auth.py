@@ -43,12 +43,12 @@ def trasmitir_estado():
 
 def grabarRawData(header, content):
     try:
-            cursor = app.conexion.connection.cursor()
-            procedure = "usp_pedido_i_request"
-            args = (header, content, 0);
-            cursor.callproc(procedure, args)
-            app.conexion.connection.commit()
-            cursor.close()
-            return True
-        except Exception as ex:
-            return False
+        cursor = app.conexion.connection.cursor()
+        procedure = "usp_pedido_i_request"
+        args = (header, content, 0);
+        cursor.callproc(procedure, args)
+        app.conexion.connection.commit()
+        cursor.close()
+        return True
+    except Exception as ex:
+        return False
