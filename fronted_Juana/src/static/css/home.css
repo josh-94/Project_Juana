@@ -5,11 +5,71 @@ body{
 .barra{
     background: #A0D5AD;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     margin: 0;
 }
 
 .dropdown-menu{
-    margin: 17px;
-    background: #00807C;
+    margin: 28px;
+    background: #049c97;
+    
+}
+
+.user{
+    font-size: 35px;
+}
+
+.logo{
+    width: 70px;
+    border-radius: 10%;
+}
+p{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h2{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h3{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.table{
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 35%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.buscador{
+    text-align: center;
+    border-radius: 100px;
+}
+thead{
+    background-color: #A0D5AD;
+}
+.detalle{
+    padding-bottom: 25px;
+    
+}
+.btn{
+    background-color: #00807C;;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 100px;
+}
+.caja.texto{
+    border-radius: 100px;
+    padding-bottom: 25px;
+}
+
+input.btn:hover{
+    background-color: #049c97;
+    transition:  0.5s;
+    font-weight: 700!important;
+    color: white;
 }
