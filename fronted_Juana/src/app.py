@@ -3,7 +3,7 @@ from flask import Flask, flash, redirect, render_template, request, redirect, ur
 from flask_mysqldb import MySQL
 from flask_wtf.csrf import CSRFProtect
 from flask_login import LoginManager, login_user, logout_user,login_required
-import requests, logging, json
+#import requests, logging, json
 
 from config import config
 
