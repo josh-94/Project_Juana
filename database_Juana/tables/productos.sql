@@ -1,6 +1,6 @@
 CREATE DATABASE IF NOT EXISTS listproduct;
 USE listproduct;
-CREATE TABLE productos(
+CREATE TABLE IF NOT EXISTS productos(
     numeroGuia VARCHAR(25) NULL,
     numeroPedido VARCHAR(25) NULL,
     estado VARCHAR(2) NULL,
