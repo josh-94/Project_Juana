@@ -12,7 +12,8 @@ from models.ModelUser import ModelUser
 
 #Entities:
 from models.entities.User import User
-
+from os import getenv
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 
@@ -76,10 +77,22 @@ def status_404(error):
 
 
 if __name__ == '__main__':
-
+    load_dotenv()
     app.secret_key = 'super secret key'
     app.config.from_object(config['development'])
     csrf.init_app(app)
     app.register_error_handler(401,status_401)
     app.register_error_handler(404,status_404)
-    app.run(host='localhost', port=5001)
+
+    # Valida si esta en modo desarrollo o produccion
+    isDev = getenv("JNB_ISDEV")
+    if (isDev == "TRUE"):
+        app.config.from_object(config['development'])
+        #host = getenv("HOST", default="0.0.0.0")
+        #port = getenv("PORT", default=5001)
+        app.run(debug=True)
+    else:
+        app.config.from_object(config['production'])
+        #host = getenv("HOST", default="0.0.0.0")
+        #port = getenv("PORT", default=5001)
+        app.run(debug=False)
