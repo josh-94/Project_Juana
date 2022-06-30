@@ -11,5 +11,6 @@ CREATE TABLE IF NOT EXISTS productos(
     hora VARCHAR(10) NULL,
     link VARCHAR(400) NULL,
     observacion VARCHAR(100) NULL,
-    eliminado TINYINT(1) NOT NULL
+    tiempo DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    eliminado TINYINT(1) NOT NULL,
 )
