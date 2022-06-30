@@ -3,8 +3,8 @@ DELIMITER $$
 DROP PROCEDURE IF EXISTS usp_pedido_i_request$$
 
 CREATE PROCEDURE usp_pedido_i_request(
-    p_header VARCHAR(800),
-    p_content TEXT,
+    p_header TEXT,
+    p_content VARCHAR(800),
     OUT o_result INT
 )
 BEGIN
