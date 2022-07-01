@@ -12,7 +12,6 @@ body{
 .dropdown-menu{
     margin: 28px;
     background: #049c97;
-    
 }
 
 .user{
@@ -22,6 +21,7 @@ body{
 .logo{
     width: 70px;
     border-radius: 10%;
+    padding-top: 0%;
 }
 p{
     color: white;
@@ -42,9 +42,10 @@ h3{
 .table{
     text-align: center;
     padding-top: 25px;
-    padding-left: 35%;
+    padding-left: 25%;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 .buscador{
     text-align: center;
     border-radius: 100px;
@@ -54,9 +55,9 @@ thead{
 }
 .detalle{
     padding-bottom: 25px;
-    
+
 }
-.btn{
+.btnBuscar{
     background-color: #00807C;;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
@@ -67,9 +68,27 @@ thead{
     padding-bottom: 25px;
 }
 
-input.btn:hover{
+input.btnBuscar:hover{
     background-color: #049c97;
     transition:  0.5s;
     font-weight: 700!important;
     color: white;
+}
+
+.btnDetalle{
+    background-color: #00807C;;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 100px;
+}
+
+input.btnDetalle:hover{
+    background-color: #049c97;
+    transition:  0.5s;
+    font-weight: 700!important;
+    color: white;
+}
+
+thead{
+    text-align: center;
 }

@@ -3,7 +3,7 @@ from flask import Flask, flash, redirect, render_template, request, redirect, ur
 from flask_mysqldb import MySQL
 from flask_wtf.csrf import CSRFProtect
 from flask_login import LoginManager, login_user, logout_user,login_required
-#import requests, logging, json
+import requests, json
 
 from config import config
 
@@ -56,13 +56,7 @@ def logout():
 
 @app.route('/home')
 def home():
-    #try:
-        #url = f"http://localhost:5000/"
-        #res = requests.get(url).json()
-        #return json.dumps(res)
-    #except Exception as ex:
-
-    return render_template('home.html')
+        return render_template('home.html')
 
 @app.route('/protected')
 @login_required

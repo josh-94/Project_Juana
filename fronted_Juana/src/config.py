@@ -7,7 +7,7 @@ class Config:
 
 class DevelopmentConfig(Config):
 # Modo de desarrollo
-    DEBUG = True 
+    DEBUG = True
 
     SERVER_NAME = getenv("JNB_SERVER_NAME", default="127.0.0.1:5001")
 
@@ -19,7 +19,7 @@ class DevelopmentConfig(Config):
 
 class ProductionConfig():
     # Modo de desarrollo
-    DEBUG = False 
+    DEBUG = False
 
     #SERVER_NAME = getenv("JNB_SERVER_NAME", default="0.0.0.0:5000")
 
