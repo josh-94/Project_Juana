@@ -22,6 +22,20 @@
                 success: function(datas) {
                     var result = "";
                     console.log(datas.pedidos);
+                    //datas.pedidos.forEach(item => {
+                    //    result +=`
+                    //    <tr>
+                    //        <td>${item.numeroPedido}</td>
+                    //        <td>${item.estado}</td>
+                    //        <td>${item.fecha}</td>
+                    //        <td>${item.hora}</td>
+                    //        <td>${item.lugar}</td>
+                    //        <td>${item.quienRecibe}</td>
+                    //        <td>${item.observacion}</td>
+                    //    </tr>
+                    //    `;
+                    //});
+
                     for (const item of datas.pedidos) {
                         result +=`
                         <tr class='tabla'>
