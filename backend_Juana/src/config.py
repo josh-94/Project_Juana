@@ -15,7 +15,7 @@ class DevelopmentConfig():
     MYSQL_DB = getenv("JNB_MYSQL_DB", default='')
 
 class ProductionConfig():
-    # Modo de desarrollo
+    # Modo de produccion
     DEBUG = False 
 
     #SERVER_NAME = getenv("JNB_SERVER_NAME", default="0.0.0.0:5000")
