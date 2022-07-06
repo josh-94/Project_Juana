@@ -22,16 +22,15 @@ def trasmitir_estado():
     """
     from app import conexion
     headers = request.headers
-    content = request.json                                  #request.stream.read()
+    content = request.json                                  
     grabarRawData(str(content), str(headers))
-    print(grabarRawData(str(content), str(headers)))
-
+ 
     # Valido que cumpla con tener "n" caracteres el numero de pedido
     if (validar_nPedido(request.json['numeroPedido'])):
         try:
             cursor = conexion.connection.cursor()
             # Obtengo los datos del json que se le pasa por parametro y los guardo en una variable
-            sql = "INSERT INTO productos (numeroGuia, numeroPedido, estado, lugar, quienRecibe, motivoDescripcion, fecha, hora, link, observacion, eliminado) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', '{10}')".format(
+            sql = "INSERT INTO estado_pedidos (numeroGuia, numeroPedido, estado, lugar, quienRecibe, motivoDescripcion, fecha, hora, link, observacion, eliminado) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', '{10}')".format(
                 request.json['numeroGuia'], request.json['numeroPedido'], request.json['estado'], request.json['lugar'], request.json['quienRecibe'], request.json['motivoDescripcion'], request.json['fecha'], request.json['hora'], request.json['link'], request.json['observacion'], '0')
             cursor.execute(sql)
             conexion.connection.commit() 
@@ -45,8 +44,8 @@ def grabarRawData(header, content):
     from app import conexion    
     try:
         cursor = conexion.connection.cursor()
-        procedure = 'usp_pedido_i_request'
-        args = (header, content, 0)
+        procedure = "usp_pedido_i_request"
+        args = (header, content, 0);
         cursor.callproc(procedure, args)
         conexion.connection.commit()
         cursor.close()
