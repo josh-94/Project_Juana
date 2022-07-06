@@ -13,6 +13,6 @@ CREATE TABLE IF NOT EXISTS estado_pedidos(
     observacion VARCHAR(100) NULL,
     tiempo DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     eliminado TINYINT(1) NOT NULL,
-    id_estado_pedidos INT Primary key NOT NULL AUTO_INCREMENT,
+    id_estado_pedidos INT(2) Primary key NOT NULL AUTO_INCREMENT,
 );
 
