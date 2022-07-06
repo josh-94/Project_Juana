@@ -15,7 +15,7 @@ def mostrarEstado():
         # Crea una conexion con la base de datos
         cursor = conexion.connection.cursor()
         # Consulta sql
-        sql = "SELECT * FROM productos WHERE eliminado = 0"
+        sql = "SELECT * FROM estado_pedidos WHERE eliminado = 0"
         # Ejecuto la consulta
         cursor.execute(sql)
         # Obtengo los datos
@@ -45,7 +45,7 @@ def mostra_pedido(n_pedido):
     try:
         cursor = conexion.connection.cursor()
         # Consulta sql, el numero de pedido que se le pasa por parametro y se usa el format para que se pueda usar el parametro
-        sql = "SELECT * FROM productos WHERE eliminado = 0 AND numeroPedido = '{0}' ORDER BY tiempo DESC".format(
+        sql = "SELECT * FROM estado_pedidos WHERE eliminado = 0 AND numeroPedido = '{0}' ORDER BY tiempo DESC".format(
             n_pedido)
         cursor.execute(sql)
         # el fetchone es para que solo me devuelva una fila(la que necesito segun el numero de pedido)
@@ -71,7 +71,7 @@ def historial_pedido(n_pedido):
    
     cursor = conexion.connection.cursor()
     # Consulta sql, el numero de pedido que se le pasa por parametro y se usa el format para que se pueda usar el parametro
-    sql = "SELECT * FROM productos WHERE numeroPedido = '{0}'".format(n_pedido)
+    sql = "SELECT * FROM estado_pedidos WHERE numeroPedido = '{0}'".format(n_pedido)
     cursor.execute(sql)
     # el fetchone es para que solo me devuelva una fila(la que necesito segun el numero de pedido)
     datos = cursor.fetchall()
@@ -93,8 +93,8 @@ def historial_pedido(n_pedido):
     except Exception as ex:
         return jsonify({'mensaje': "Error"})
 
-@rutas.route('/eliminarEstado/<n_pedido>', methods=['DELETE'])         
-def eliminar_estado(n_pedido):
+@rutas.route('/actualizarEstado/<n_pedido>', methods=['PUT'])         
+def actualizar_estado(n_pedido):
     """
     Actualiza el estado de "eliminado" que por defecto a 0 a 1
     
@@ -104,12 +104,13 @@ def eliminar_estado(n_pedido):
     try:
         # Obtengo los datos del json que se le pasa por parametro y los guardo en una variable
         cursor = conexion.connection.cursor()
-        sql = "UPDATE productos SET eliminado = 1 WHERE numeroPedido = '{0}'".format(n_pedido)
-        #sql = "DELETE FROM productos WHERE numeroPedido = '{0}'".format(n_pedido)
+        sql = "UPDATE estado_pedidos SET eliminado = 1 WHERE numeroPedido = '{0}'".format(n_pedido)
         cursor.execute(sql)
         conexion.connection.commit()  # Confirma la accion de insercion
-        return jsonify({'mensaje': "Estado del Pedido eliminado..."})
+        return jsonify({'mensaje': "Estado del Pedido actualizado..."})
 
     except Exception as ex:
         return jsonify({'mensaje': "Error"})
+
+
 
