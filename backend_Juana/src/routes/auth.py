@@ -25,3 +25,4 @@ def verifyToken():
     """
     token = request.headers['Authorization'].split(" ")[1]
     return validate_token(token, output=True)
+
