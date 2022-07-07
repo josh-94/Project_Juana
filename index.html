@@ -2,16 +2,28 @@
 <html lang="en">
 <head>
 <title>Landing Page Project Juana by Teoma</title>
+<link rel = "icon" href = 
+"https://scontent.flim18-3.fna.fbcdn.net/v/t39.30808-6/289554590_101307432641556_6909144995201611243_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=T1hyg3MP0pcAX8QYbzz&_nc_ht=scontent.flim18-3.fna&oh=00_AT_Q1RpSPsm9kzFCV2U3iALtLUTNHrQmCnHZ0rnPIJw9rg&oe=62C8BDD7" 
+        type = "image/x-icon">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/646c794df3.js" crossorigin="anonymous"></script>
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif }
+.w3-bar,h1,button {font-family: 'Josefin Sans', sans-serif }
 .fa-anchor,.fa-coffee {font-size:200px}
+.logo{
+  width: 220px;
+  height: 220px;
+  padding-right: 0px;
+}
 </style>
 </head>
 <body>
@@ -20,39 +32,41 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Inicio</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
   </div>
 </div>
 
 <!-- Header -->
+  
 <header class="w3-container w3-red w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">START PAGE</h1>
-  <p class="w3-xlarge">Template by w3.css</p>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+  <h1 class="w3-margin w3-jumbo">Proyecto Final Holberton School</h1>
+  
+  <p class="w3-xlarge">Juana by Teoma</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Empezar</button>
 </header>
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>Sobre el Proyecto</h1>
+      <h5 class="w3-padding-32">Un chatbot para ayudar a los futuros clientes con la finalidad de eliminar sesgos arraigados negativos sobre el cannabis.
+        Un chatbot para informar a los clientes sobre los estados de sus pedidos.
+      </h5>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="w3-text-grey">Ayudar a los clientes de Juana a resolver sus dudas sobre el producto.
+
+        Optimizar el tiempo de respuesta hacia el usuario sobre el estado de su pedido.
+        </p>
     </div>
 
     <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+      <img src="img/logoJuana.png" alt="Logo" class="logo">
+      
     </div>
   </div>
 </div>
@@ -61,35 +75,36 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+      <img src="img/giuliano.png" alt="Giuliano Flores" class="giuliano">
     </div>
 
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>Equipo Desarrolladores</h1>
+      <h5 class="w3-padding-32">
+        <b>Giuliano Flores Mesías</b><p>Bachiller en Ingeniería de sistemas, con dominio en el análisis y diseño de sistemas, Modelado de base de datos. Con metas de ser un gestor de proyectos.
+          <p>Rol: Diseño de base de datos, configuración y funcionamiento de la base de datos en el servidor.</p>
+        
+        <b>Ronald Altamirano Carranza</b><p>Descubrir las bondades de la aplicación Dialog Flow de Google para crear un chatBot con Lenguaje Natural, descubrir el método Web Scraping, verificar una página de Facebook para poder integrarlo con la API de WhatsAPP.
+          <p>Rol: Diseñar el flujo del chatbot con SendPulse.</p>
+        
+        <b>Jeshua Cabanillas Blanco</b><p>Desarrollador web full-stack inclinado a la programación front-end. Entusiasta por la tecnología y por crear productos digitales orientados al cliente.
+          <p>Rol: Desarrollo del fronted y despliegue de servidores</p>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <b>Diego Alonso Morey</b><p>Estudiante de Fundamentos del Desarrollo de Software, y Arquitectura; interesado por el desarrollo de aplicaciones web y el análisis de datos.
+          <p>Rol: Backend</p>
+      </h5>
     </div>
   </div>
 </div>
 
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
-</div>
-
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+<footer class="w3-container w3-padding-84 w3-center w3-opacity">  
   <div class="w3-xlarge w3-padding-32">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
     <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <i class="fa fa-github w3-hover-opacity"></i>
  </div>
- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
 <script>
