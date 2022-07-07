@@ -18,7 +18,13 @@ app.register_blueprint(route_sharff, url_prefix="/")
 app.register_blueprint(test_blueprint, url_prefix="/test")  ### Registrando la ruta test
 
 # La conexion para poder trabajar con la base de datos
-conexion = MySQL(app)   
+load_dotenv()
+isDev = getenv("JNB_ISDEV")
+if (isDev == "TRUE"):
+    app.config.from_object(config['development'])
+else:
+    app.config.from_object(config['production'])
+conexion = MySQL(app)
 
 def pagina_no_encontrada(error):
     """
@@ -42,21 +48,12 @@ def error_autorizacion(error):
 
 
 if __name__ == '__main__':
-    load_dotenv()
+    #load_dotenv()
     # Registro de los errores
     app.register_error_handler(404, pagina_no_encontrada)
     app.register_error_handler(405, error_autorizacion)
 
     # Valida si esta en modo desarrollo o produccion
-    isDev = getenv("JNB_ISDEV")
-    if (isDev == "TRUE"):
-        app.config.from_object(config['development'])
         #host = getenv("HOST", default="0.0.0.0")
         #port = getenv("PORT", default=5000)
-        app.run(debug=True)
-    else:
-        app.config.from_object(config['production'])
-        #host = getenv("HOST", default="0.0.0.0")
-        #port = getenv("PORT", default=5000)
-        app.run(debug=False)
-
+    app.run()

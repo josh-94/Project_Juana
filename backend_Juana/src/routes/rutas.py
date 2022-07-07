@@ -32,7 +32,7 @@ def mostrarEstado():
 
     except Exception as ex:
         # Returning a JSON object with the key `mensaje` and the value `Error`.
-        return jsonify({'mensaje': "Error"})
+        return jsonify({'mensaje': "Error", 'error':str(ex)})
 
 @rutas.route('/mostrarEstado/<n_pedido>', methods=['GET'])
 def mostra_pedido(n_pedido):

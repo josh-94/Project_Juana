@@ -1,0 +1,1002 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jul  6 23:15:11 2022] ***
+compiled with version: 9.4.0 on 06 July 2022 22:12:43
+os: Linux-5.13.0-1029-aws #32~20.04.1-Ubuntu SMP Thu Jun 9 13:03:13 UTC 2022
+nodename: ip-172-31-31-147
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/myproject/Project_Juana/backend_Juana/src
+detected binary path: /home/ubuntu/myproject/myprojectenv/bin/uwsgi
+your processes number limit is 3819
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address juanaapi.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5652f0c97b40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5652f0c97b40 pid: 31504 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31504)
+spawned uWSGI worker 1 (pid: 31506, cores: 1)
+spawned uWSGI worker 2 (pid: 31507, cores: 1)
+spawned uWSGI worker 3 (pid: 31508, cores: 1)
+spawned uWSGI worker 4 (pid: 31509, cores: 1)
+spawned uWSGI worker 5 (pid: 31510, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket juanaapi.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jul  6 23:29:28 2022] ***
+compiled with version: 9.4.0 on 06 July 2022 22:12:43
+os: Linux-5.13.0-1029-aws #32~20.04.1-Ubuntu SMP Thu Jun 9 13:03:13 UTC 2022
+nodename: ip-172-31-31-147
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/myproject/Project_Juana/backend_Juana/src
+detected binary path: /home/ubuntu/myproject/myprojectenv/bin/uwsgi
+your processes number limit is 3819
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address juanaapi.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x559b6ac48b40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x559b6ac48b40 pid: 31696 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31696)
+spawned uWSGI worker 1 (pid: 31698, cores: 1)
+spawned uWSGI worker 2 (pid: 31699, cores: 1)
+spawned uWSGI worker 3 (pid: 31700, cores: 1)
+spawned uWSGI worker 4 (pid: 31701, cores: 1)
+spawned uWSGI worker 5 (pid: 31702, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket juanaapi.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jul  6 23:30:35 2022] ***
+compiled with version: 9.4.0 on 06 July 2022 22:12:43
+os: Linux-5.13.0-1029-aws #32~20.04.1-Ubuntu SMP Thu Jun 9 13:03:13 UTC 2022
+nodename: ip-172-31-31-147
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/myproject/Project_Juana/backend_Juana/src
+detected binary path: /home/ubuntu/myproject/myprojectenv/bin/uwsgi
+your processes number limit is 3819
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address juanaapi.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x558bf40f8b40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558bf40f8b40 pid: 31747 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31747)
+spawned uWSGI worker 1 (pid: 31749, cores: 1)
+spawned uWSGI worker 2 (pid: 31750, cores: 1)
+spawned uWSGI worker 3 (pid: 31751, cores: 1)
+spawned uWSGI worker 4 (pid: 31752, cores: 1)
+spawned uWSGI worker 5 (pid: 31753, cores: 1)
+[pid: 31752|app: 0|req: 1/1] 190.238.254.214 () {42 vars in 790 bytes} [Wed Jul  6 23:31:47 2022] GET /mostrarEstado => generated 20 bytes in 152 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket juanaapi.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jul  6 23:36:33 2022] ***
+compiled with version: 9.4.0 on 06 July 2022 22:12:43
+os: Linux-5.13.0-1029-aws #32~20.04.1-Ubuntu SMP Thu Jun 9 13:03:13 UTC 2022
+nodename: ip-172-31-31-147
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/myproject/Project_Juana/backend_Juana/src
+detected binary path: /home/ubuntu/myproject/myprojectenv/bin/uwsgi
+your processes number limit is 3819
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address juanaapi.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56031b227b40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56031b227b40 pid: 31840 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31840)
+spawned uWSGI worker 1 (pid: 31842, cores: 1)
+spawned uWSGI worker 2 (pid: 31843, cores: 1)
+spawned uWSGI worker 3 (pid: 31844, cores: 1)
+spawned uWSGI worker 4 (pid: 31845, cores: 1)
+spawned uWSGI worker 5 (pid: 31846, cores: 1)
+[pid: 31845|app: 0|req: 1/1] 190.238.254.214 () {42 vars in 790 bytes} [Wed Jul  6 23:37:27 2022] GET /mostrarEstado => generated 20 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31842|app: 0|req: 1/2] 190.238.254.214 () {42 vars in 790 bytes} [Wed Jul  6 23:37:30 2022] GET /mostrarEstado => generated 20 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31843|app: 0|req: 1/3] 179.6.27.179 () {40 vars in 765 bytes} [Wed Jul  6 23:37:48 2022] GET /mostrarEstado => generated 20 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31842|app: 0|req: 2/4] 190.238.254.214 () {42 vars in 790 bytes} [Wed Jul  6 23:39:32 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31846|app: 0|req: 1/5] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:40 2022] GET /mostrarEstado => generated 20 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31842|app: 0|req: 3/6] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:40 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31843|app: 0|req: 2/7] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:41 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31845|app: 0|req: 2/8] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:42 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31844|app: 0|req: 1/9] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:43 2022] GET /mostrarEstado => generated 20 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31842|app: 0|req: 4/10] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:43 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31843|app: 0|req: 3/11] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:44 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31846|app: 0|req: 2/12] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:44 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31845|app: 0|req: 3/13] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:48 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31843|app: 0|req: 4/14] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:49 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31842|app: 0|req: 5/15] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:49 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31845|app: 0|req: 4/16] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:51 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31846|app: 0|req: 3/17] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:51 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket juanaapi.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jul  6 23:39:54 2022] ***
+compiled with version: 9.4.0 on 06 July 2022 22:12:43
+os: Linux-5.13.0-1029-aws #32~20.04.1-Ubuntu SMP Thu Jun 9 13:03:13 UTC 2022
+nodename: ip-172-31-31-147
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/myproject/Project_Juana/backend_Juana/src
+detected binary path: /home/ubuntu/myproject/myprojectenv/bin/uwsgi
+your processes number limit is 3819
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address juanaapi.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x562ea30abb40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x562ea30abb40 pid: 31883 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31883)
+spawned uWSGI worker 1 (pid: 31885, cores: 1)
+spawned uWSGI worker 2 (pid: 31886, cores: 1)
+spawned uWSGI worker 3 (pid: 31887, cores: 1)
+spawned uWSGI worker 4 (pid: 31888, cores: 1)
+spawned uWSGI worker 5 (pid: 31889, cores: 1)
+[pid: 31888|app: 0|req: 1/1] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:55 2022] GET /mostrarEstado => generated 20 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 1/2] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:55 2022] GET /mostrarEstado => generated 20 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 1/3] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:56 2022] GET /mostrarEstado => generated 20 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 2/4] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:57 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 1/5] 190.238.254.214 () {42 vars in 790 bytes} [Wed Jul  6 23:39:58 2022] GET /mostrarEstado => generated 20 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 3/6] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:58 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 2/7] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:58 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 2/8] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:59 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 1/9] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:39:59 2022] GET /mostrarEstado => generated 20 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 4/10] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:00 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 3/11] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:00 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 2/12] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:00 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 3/13] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:00 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 4/14] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:01 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 4/15] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:01 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 5/16] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:01 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 3/17] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:01 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 5/18] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:02 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 5/19] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:02 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 6/20] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:02 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 4/21] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:02 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 2/22] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:05 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 6/23] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:05 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 6/24] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:05 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 7/25] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:06 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 5/26] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:06 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 3/27] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:06 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 7/28] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:06 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 7/29] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:07 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 6/30] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:07 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 8/31] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:07 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 4/32] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:07 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 8/33] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:08 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 7/34] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:09 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 8/35] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:09 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 9/36] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:10 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 5/37] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:10 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 9/38] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:10 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 9/39] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:10 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 8/40] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:10 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 10/41] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:11 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 6/42] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:11 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 10/43] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:11 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 9/44] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:12 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 10/45] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:13 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 11/46] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:14 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 7/47] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:14 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 11/48] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:15 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 10/49] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:15 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 11/50] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:15 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 12/51] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:16 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 8/52] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:16 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 12/53] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:17 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 11/54] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:18 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 12/55] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:19 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 13/56] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:19 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 9/57] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:20 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 13/58] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:20 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 12/59] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:20 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 13/60] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:21 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 14/61] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:21 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 10/62] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:22 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 13/63] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:22 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 14/64] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:23 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 14/65] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:23 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 15/66] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:23 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 11/67] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:24 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 14/68] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:24 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 15/69] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:25 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 15/70] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:27 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 16/71] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:27 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 12/72] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:28 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 15/73] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:29 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 16/74] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:29 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 16/75] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:30 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 17/76] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:30 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 13/77] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:31 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 17/78] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:31 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 16/79] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:33 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 17/80] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:34 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 18/81] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:34 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 14/82] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:35 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 18/83] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:35 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 17/84] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:36 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 18/85] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:37 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 19/86] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:38 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 15/87] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:39 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 19/88] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:39 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 18/89] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:39 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 19/90] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:40 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 20/91] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:40 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 16/92] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:41 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 20/93] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:43 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 19/94] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:44 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 20/95] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:45 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 21/96] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:47 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 17/97] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:48 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 21/98] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:49 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 20/99] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:50 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 21/100] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:50 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 22/101] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:51 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 18/102] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:52 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 22/103] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:52 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 21/104] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:53 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (2 switches on core 0)
+[pid: 31886|app: 0|req: 22/105] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:54 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (2 switches on core 0)
+[pid: 31885|app: 0|req: 23/106] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:54 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (2 switches on core 0)
+[pid: 31887|app: 0|req: 19/107] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:55 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (2 switches on core 0)
+[pid: 31888|app: 0|req: 23/108] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:56 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 23/109] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:56 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 22/110] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:57 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 24/111] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:57 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 20/112] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:57 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 24/113] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:59 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 24/114] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:40:59 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 23/115] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:00 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 25/116] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:01 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 21/117] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:02 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 25/118] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:02 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 25/119] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:04 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 24/120] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:05 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 26/121] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:05 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 22/122] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:06 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 26/123] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:06 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 26/124] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:08 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 25/125] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:09 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 27/126] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:10 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 23/127] 190.238.254.214 () {42 vars in 790 bytes} [Wed Jul  6 23:41:10 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 27/128] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:10 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 27/129] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:11 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 26/130] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:11 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 28/131] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:12 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 24/132] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:12 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 28/133] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:12 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 28/134] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:13 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31889|app: 0|req: 27/135] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:13 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 29/136] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:13 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 25/137] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:41:13 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 29/138] 179.6.27.179 () {40 vars in 745 bytes} [Wed Jul  6 23:41:44 2022] GET /two => generated 232 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 30/139] 179.6.27.179 () {40 vars in 745 bytes} [Wed Jul  6 23:43:06 2022] GET /one => generated 232 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 29/140] 179.6.27.179 () {40 vars in 765 bytes} [Wed Jul  6 23:43:22 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 31/141] 190.238.254.214 () {42 vars in 789 bytes} [Wed Jul  6 23:43:49 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 32/142] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:44:43 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 30/143] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:44:43 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 26/144] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:44:44 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 31888|app: 0|req: 30/145] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:44:44 2022] GET /mostrarEstado => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket juanaapi.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jul  6 23:45:02 2022] ***
+compiled with version: 9.4.0 on 06 July 2022 22:12:43
+os: Linux-5.13.0-1029-aws #32~20.04.1-Ubuntu SMP Thu Jun 9 13:03:13 UTC 2022
+nodename: ip-172-31-31-147
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/myproject/Project_Juana/backend_Juana/src
+detected binary path: /home/ubuntu/myproject/myprojectenv/bin/uwsgi
+your processes number limit is 3819
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address juanaapi.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x564607477b40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x564607477b40 pid: 31955 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31955)
+spawned uWSGI worker 1 (pid: 31957, cores: 1)
+spawned uWSGI worker 2 (pid: 31958, cores: 1)
+spawned uWSGI worker 3 (pid: 31959, cores: 1)
+spawned uWSGI worker 4 (pid: 31960, cores: 1)
+spawned uWSGI worker 5 (pid: 31961, cores: 1)
+[pid: 31960|app: 0|req: 1/1] 190.238.254.214 () {42 vars in 789 bytes} [Wed Jul  6 23:45:33 2022] GET /mostrarEstado => generated 107 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 31957|app: 0|req: 1/2] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:47:08 2022] GET /mostrarEstado => generated 107 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 31961|app: 0|req: 1/3] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:49:12 2022] GET /mostrarEstado => generated 107 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket juanaapi.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Jul  6 23:56:52 2022] ***
+compiled with version: 9.4.0 on 06 July 2022 22:12:43
+os: Linux-5.13.0-1029-aws #32~20.04.1-Ubuntu SMP Thu Jun 9 13:03:13 UTC 2022
+nodename: ip-172-31-31-147
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/myproject/Project_Juana/backend_Juana/src
+detected binary path: /home/ubuntu/myproject/myprojectenv/bin/uwsgi
+your processes number limit is 3819
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address juanaapi.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x561325b59b40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x561325b59b40 pid: 32044 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32044)
+spawned uWSGI worker 1 (pid: 32046, cores: 1)
+spawned uWSGI worker 2 (pid: 32047, cores: 1)
+spawned uWSGI worker 3 (pid: 32048, cores: 1)
+spawned uWSGI worker 4 (pid: 32049, cores: 1)
+spawned uWSGI worker 5 (pid: 32050, cores: 1)
+[2022-07-06 23:56:53,123] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32048|app: 0|req: 1/1] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:56:53 2022] GET /mostrarEstado => generated 290 bytes in 14 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:56:53,994] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32046|app: 0|req: 1/2] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:56:53 2022] GET /mostrarEstado => generated 290 bytes in 5 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:56:54,796] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32047|app: 0|req: 1/3] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:56:54 2022] GET /mostrarEstado => generated 290 bytes in 5 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:56:55,571] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32050|app: 0|req: 1/4] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:56:55 2022] GET /mostrarEstado => generated 290 bytes in 5 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:56:56,035] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32046|app: 0|req: 2/5] 190.238.254.214 () {42 vars in 790 bytes} [Wed Jul  6 23:56:56 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:56:56,232] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32048|app: 0|req: 2/6] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:56:56 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:56:56,765] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32049|app: 0|req: 1/7] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:56:56 2022] GET /mostrarEstado => generated 290 bytes in 5 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:56:57,304] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32046|app: 0|req: 3/8] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:56:57 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:56:57,773] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32047|app: 0|req: 2/9] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:56:57 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:56:57,937] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32048|app: 0|req: 3/10] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:56:57 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:56:58,212] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32050|app: 0|req: 2/11] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:56:58 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:56:58,722] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32047|app: 0|req: 3/12] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:56:58 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:56:58,941] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32048|app: 0|req: 4/13] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:56:58 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:05,675] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32046|app: 0|req: 4/14] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:05 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:05,983] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32050|app: 0|req: 3/15] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:05 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:07,879] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32046|app: 0|req: 5/16] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:07 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:08,032] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32047|app: 0|req: 4/17] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:08 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:08,191] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32048|app: 0|req: 5/18] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:08 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:08,351] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32049|app: 0|req: 2/19] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:08 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:08,486] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32050|app: 0|req: 4/20] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:08 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:08,635] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32046|app: 0|req: 6/21] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:08 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:08,786] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32048|app: 0|req: 6/22] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:08 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:09,087] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32047|app: 0|req: 5/23] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:09 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:09,346] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32050|app: 0|req: 5/24] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:09 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:09,482] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32049|app: 0|req: 3/25] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:09 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:09,765] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32047|app: 0|req: 6/26] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:09 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:09,923] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32046|app: 0|req: 7/27] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:09 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:10,071] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32048|app: 0|req: 7/28] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:10 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:10,204] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32049|app: 0|req: 4/29] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:10 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:10,355] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32050|app: 0|req: 6/30] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:10 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:10,506] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32046|app: 0|req: 8/31] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:10 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+[2022-07-06 23:57:10,664] ERROR in app: Exception on /mostrarEstado [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/myproject/myprojectenv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/ubuntu/myproject/Project_Juana/backend_Juana/src/./routes/rutas.py", line 13, in mostrarEstado
+    conexion = flask_mysqldb.MySQL(app) #from app import conexion
+NameError: name 'flask_mysqldb' is not defined
+[pid: 32047|app: 0|req: 7/32] 179.6.27.179 () {42 vars in 796 bytes} [Wed Jul  6 23:57:10 2022] GET /mostrarEstado => generated 290 bytes in 1 msecs (HTTP/1.1 500) 3 headers in 131 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 0 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket juanaapi.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Jul  7 00:05:37 2022] ***
+compiled with version: 9.4.0 on 06 July 2022 22:12:43
+os: Linux-5.13.0-1029-aws #32~20.04.1-Ubuntu SMP Thu Jun 9 13:03:13 UTC 2022
+nodename: ip-172-31-31-147
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/myproject/Project_Juana/backend_Juana/src
+detected binary path: /home/ubuntu/myproject/myprojectenv/bin/uwsgi
+your processes number limit is 3819
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address juanaapi.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x559315c8db40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x559315c8db40 pid: 32129 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32129)
+spawned uWSGI worker 1 (pid: 32131, cores: 1)
+spawned uWSGI worker 2 (pid: 32132, cores: 1)
+spawned uWSGI worker 3 (pid: 32133, cores: 1)
+spawned uWSGI worker 4 (pid: 32134, cores: 1)
+spawned uWSGI worker 5 (pid: 32135, cores: 1)
+[pid: 32134|app: 0|req: 1/1] 179.6.27.179 () {42 vars in 796 bytes} [Thu Jul  7 00:05:38 2022] GET /mostrarEstado => generated 1403 bytes in 49 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 32131|app: 0|req: 1/2] 179.6.27.179 () {42 vars in 796 bytes} [Thu Jul  7 00:05:39 2022] GET /mostrarEstado => generated 1403 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 32134|app: 0|req: 2/3] 179.6.27.179 () {42 vars in 796 bytes} [Thu Jul  7 00:05:44 2022] GET /mostrarEstado => generated 1403 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 32132|app: 0|req: 1/4] 179.6.27.179 () {42 vars in 796 bytes} [Thu Jul  7 00:05:44 2022] GET /mostrarEstado => generated 1403 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 32131|app: 0|req: 2/5] 179.6.27.179 () {42 vars in 796 bytes} [Thu Jul  7 00:05:45 2022] GET /mostrarEstado => generated 1403 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 32134|app: 0|req: 3/6] 179.6.27.179 () {42 vars in 796 bytes} [Thu Jul  7 00:05:45 2022] GET /mostrarEstado => generated 1403 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 32135|app: 0|req: 1/7] 179.6.27.179 () {42 vars in 796 bytes} [Thu Jul  7 00:05:46 2022] GET /mostrarEstado => generated 1403 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 32131|app: 0|req: 3/8] 190.238.254.214 () {42 vars in 790 bytes} [Thu Jul  7 00:05:48 2022] GET /mostrarEstado => generated 1403 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 32134|app: 0|req: 4/9] 179.6.27.179 () {40 vars in 773 bytes} [Thu Jul  7 00:06:36 2022] GET /mostrarEstado/sda => generated 36 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 32133|app: 0|req: 1/10] 179.6.27.179 () {40 vars in 775 bytes} [Thu Jul  7 00:06:40 2022] GET /mostrarEstado/1234 => generated 36 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 32131|app: 0|req: 4/11] 179.6.27.179 () {40 vars in 765 bytes} [Thu Jul  7 00:06:46 2022] GET /mostrarEstado => generated 1403 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 32132|app: 0|req: 2/12] 179.6.27.179 () {40 vars in 799 bytes} [Thu Jul  7 00:07:11 2022] GET /mostrarEstado/1141541414078-05 => generated 325 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 32135|app: 0|req: 2/13] 179.6.27.179 () {40 vars in 803 bytes} [Thu Jul  7 00:07:24 2022] GET /hostorialEstado/1141541414078-05 => generated 232 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 32134|app: 0|req: 5/14] 179.6.27.179 () {40 vars in 803 bytes} [Thu Jul  7 00:07:34 2022] GET /historialEstado/1141541414078-05 => generated 232 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 32134|app: 0|req: 6/15] 179.6.27.179 () {40 vars in 803 bytes} [Thu Jul  7 00:07:43 2022] GET /historialPedido/1141541414078-05 => generated 885 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 32131|app: 0|req: 5/16] 190.238.254.214 () {42 vars in 790 bytes} [Thu Jul  7 00:41:20 2022] GET /mostrarEstado => generated 1403 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 32134|app: 0|req: 7/17] 35.196.132.85 () {30 vars in 422 bytes} [Thu Jul  7 00:41:39 2022] GET /mostrarEstado => generated 1403 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 32135|app: 0|req: 3/18] 190.238.254.214 () {40 vars in 759 bytes} [Thu Jul  7 00:41:49 2022] GET /mostrarEstado => generated 1403 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 32133|app: 0|req: 2/19] 190.238.254.214 () {40 vars in 703 bytes} [Thu Jul  7 00:41:49 2022] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 32132|app: 0|req: 3/20] 179.6.27.179 () {40 vars in 778 bytes} [Thu Jul  7 00:41:50 2022] GET /mostrarEstado => generated 1403 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
