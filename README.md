@@ -1,4 +1,8 @@
 # Project Chatbot - Juana by Teoma
+![JUANA](https://github.com/josh-94/Project_Juana/blob/main/fronted_Juana/src/static/img/logoJuana.png)
+
+### Descripción
+***
 The juana by teoma project corresponds. Create a chatbot to provide information at any time and provide order statuses to customers. An API linked to the Sendpulse chatbot platform was created. With them we can have all the communication links.
 
 #### Functionalities:
