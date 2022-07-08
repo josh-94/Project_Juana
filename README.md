@@ -3,6 +3,8 @@
 
 ### Descripción
 ***
+Juana by teoma. Is a company that sells cannabis-based medicinal products, it has a great job before society to eliminate all negative stigma towards silver, in a country where only medicinal use is allowed, but with very little information and that highlights all its properties. The company has three product lines where the customer can choose according to their needs. Juana is linked to the company Teoma, it is a Peruvian multilevel company with a presence in more than 5 countries where its clients are called partners, through a single payment they have access to supplier discounts and new partners can sell their products to their clients. That is why in Juana only people registered as members of Teoma can buy.
+
 The juana by teoma project corresponds. Create a chatbot to provide information at any time and provide order statuses to customers. An API linked to the Sendpulse chatbot platform was created. With them we can have all the communication links.
 
 #### Functionalities:
