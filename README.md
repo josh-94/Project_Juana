@@ -43,7 +43,78 @@ This project is interpreted/tested on Ubuntu 20.4 LTS using python3,Flask, json 
 
 ## File Descriptions
 [Tables](tables) - Script of the creation of all the tables
+
 [Procedures](Procedures) - Creation of procedures for storage of API requests.
 
 # Frontend
 
+### `models` directory contains classes used for this project:
+
+[entities](entities) - Login validation:
+* `User` - Class user for credentials
+* `ModelUser` - Conexion and validate user
+* `get_by_id` - Call database for table user
+
+### `Static` directory contains style and image for this project:
+
+[css](css) - Style css:
+* `home` - style of home
+* `login` - Styyle of home
+
+[img](img) - Images
+
+### `Templates` directory contains templates of bootstrap:
+[base.html](base.html) - Template base
+
+[home.html](home.html) - Template home
+
+# Requirements
+
+### `Requirements` All the requirements are met to be able to start the project.
+
+## Examples of use
+```
+Ubuntu_Juana$./app.py
+
+(env)Ubuntu_Juana$: curl http://3.84.55.178:5000/trasmitirEstado
+================================================================
+{
+  "numeroGuia" : "DEV1141541414078-05",
+  "numeroPedido" : "1141541414078-05",
+  "estado" : "14",
+  "lugar" : "Dueños/consignatario",
+  "quienRecibe" : ""Sofia Hinojosa",
+  "motivoDescripcion" : "",
+  "fecha" : "15:00",
+  "hora" : "https://..../77695057e8c.png",
+  "observacion" : ""
+}
+```
+### Response
+
+```
+Ubuntu_Juana$:
+==================================================================
+{
+  "codigo" : "1",
+  "mensaje" : "Se registró correctamente"
+}
+
+OR
+
+{
+  "codigo" : "0",
+  "mensaje" : "No se pudo registrar"
+}
+```
+## Author
+Jeshua Cabanillas - [Github](https://github.com/josh-94) / [LinkedIn](https://www.linkedin.com/in/jeshuacabanillas/)
+
+Diego Morey - [Github](https://github.com/DAlons27) / [LinkedIn](https://www.linkedin.com/in/admorey/)
+
+Giuliano FLores - [Github](https://github.com/mrgiulls) / [LinkedIn](https://www.linkedin.com/in/giuliano-flores-mesias/)
+
+Ronald Altamirano - [Github](https://github.com/ronLabs) / [LinkedIn](https://www.linkedin.com/in/ron-altamirano/)
+
+## License
+Public Domain. No copy write protection. 
