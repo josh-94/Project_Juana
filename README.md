@@ -14,12 +14,12 @@ The juana by teoma project corresponds. Create a chatbot to provide information 
 * Contact a personal advisor
 
 ## Table of Content
-* [Environment] (#environment)
-* [Installation] (#installation)
-* [File Descriptions] (#file-descriptions)
-* [Examples of use] (#examples-of-use)
-* [Authors] (#authors)
-* [License] (#license)
+* [Environment](#environment)
+* [Installation](#installation)
+* [File Descriptions](#file-descriptions)
+* [Examples of use](#examples-of-use)
+* [Authors](#authors)
+* [License](#license)
 
 ## Environment
 This project is interpreted/tested on Ubuntu 20.4 LTS using python3,Flask, json web token, mysql, bootstrap y javascript.
