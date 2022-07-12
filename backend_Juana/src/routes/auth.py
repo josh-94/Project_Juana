@@ -12,7 +12,8 @@ def login():
     """
     data = request.get_json()
     if data['username'] == "UsuarioSharff":
-        return write_token(data=request.get_json())
+        if len(data['password']) > 7:
+            return write_token(data=request.get_json())
     else:
         response = jsonify({"message": "User not found"})
         response.status_code = 404
