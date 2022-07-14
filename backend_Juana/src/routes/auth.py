@@ -13,13 +13,20 @@ def login():
     """
     data = request.get_json()
     if data['username'] == "UsuarioSharff":
-        if validar_password(data['password']):
+        if data['password'] == "Sch@rff2022":
             return write_token(data=request.get_json())
         else:
-            return jsonify({'Error': "La contraseña debe tener 8 digitos y no tener espacios."})
+            response = jsonify({"error": "Password incorrecto"})
+            response.status_code = 401
+            return response
+        
+        #if validar_password(data['password']):
+            #return write_token(data=request.get_json())
+        #else:
+            #return jsonify({'Error': "La contraseña debe tener 8 digitos y no tener espacios."})
     else:
-        response = jsonify({"message": "User not found"})
-        response.status_code = 404
+        response = jsonify({"message": "Usuario incorrecto"})
+        response.status_code = 401
         return response
 
 @routes_auth.route("/verifyToken", methods=["GET"])
