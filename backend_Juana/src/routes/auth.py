@@ -1,7 +1,7 @@
 from flask import Blueprint, jsonify, request
 from flask_cors import CORS                             # El CORS debe estar en todos los archivos de ruta
 from function_jwt import write_token, validate_token
-from function_validation import validar_password
+#from function_validation import validar_password
 
 routes_auth = Blueprint("routes_auth", __name__)
 CORS(routes_auth)                                       # importante para origen cruzado
