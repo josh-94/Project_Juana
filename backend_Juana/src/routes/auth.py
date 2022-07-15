@@ -34,7 +34,7 @@ def login():
         response.status_code = 401
         return response
 
-@routes_auth.route("/verifyToken", methods=["GET"])
+@routes_auth.route("/verifyToken", methods=["POST"])
 def verifyToken():
     """
     Permite verificar el token, nos da como salida el usuario, password y tiempo de expiracion del token
